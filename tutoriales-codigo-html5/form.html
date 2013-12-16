@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--  
+     Creado Por: Jean Bernuy
+	 
+	 1. Formularios HTML - el elemento de entrada.
+	 2. TRABAJAR CON Campos de texto,Campo de contraseña,Botones de opción,Casillas de verificación.
+	 3. Acciones al formulario.
+-->
+<html>
+       <head> 
+       	    <meta charset="utf-8">
+            <title>Pagina Web Principal </title>
+            <link  rel="stylesheet" type="text/css" href="css/estilos1.css">
+       </head>
+       
+   <body>
+          <h1> Formularios en HTML5</h1>
+          <form action="paginaServidor.php" method="get">
+            
+            <h3>Registro de Usuarios</h3><br>
+
+            Nombre:<br>
+            <input type="text" ><br>
+            Email:<br>
+            <input type="text" ><br>
+
+            Contraseña:<br>
+            <input type="password"><br>
+
+            Ocupación:
+            <select name="ocupacion">
+             <option value="e">Estudiante</option>
+             <option value="p">Programador</option>
+             <option value="d">Desarrollador</option>
+            </select><br>
+
+           <br> <input type="radio" name="genero">Masculino
+           <br> <input type="radio" name="genero">Femenino<br>
+             
+            <br> Elija Curso:<br>
+            <input type="checkbox" name="lenguaje" >HTML5
+            <input type="checkbox" name="lenguaje">JAVA<br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+          </form>
+         <!-- <hr>
+          <object type="text/html" data="form1.html" width="400"  height="350"></object>
+           <hr>
+           <embed width="420" height="345" src="http://www.youtube.com/v/XGSy3_Czz8k" type="application/x-shockwave-flash">
+           </embed>-->
+        
+       </body>
+</html>	 
