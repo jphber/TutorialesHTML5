@@ -1,0 +1,36 @@
+body{
+	background-color: grey;
+}
+
+#galeria {
+border: 1px solid #EAEAEA;
+border-radius: 25px;
+padding: 20px;
+padding-bottom: 0;
+background: #0099CC;
+width: 940px;
+margin: auto;
+}
+
+#imgMostrar {
+border: 1px solid #F2F2F2;
+border-radius: 25px;
+width: 940px;
+height: 300px;
+}
+
+#galeria_miniaturas{
+	display: table;
+    margin: 0 auto;
+}
+
+.miniatura {
+width:  60px;
+height:  60px;
+border-radius: 10px;
+float: left;
+cursor: pointer;
+padding: 5px;
+margin: 10px 5px;
+}
+
