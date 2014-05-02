@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--  
+    Creado Por: Jean Bernuy - applikdos
+
+	 1. ELEMENTO CANVAS EN HTML5 -.
+	 2. Es sólo un contenedor de gráficos. Se debe utilizar una secuencia de comandos para dibujar realmente los gráficos.
+	 3. Internet Explorer 8 y versiones anteriores, no son compatibles con el elemento <canvas>.
+
+-->
+<html>
+       <head> 
+       	    <meta charset="utf-8">
+            <title>Pagina Web Principal </title>
+            <link  rel="stylesheet" type="text/css" href="estilos1.css">
+
+          
+       </head>
+       
+   <body>
+          <h1>CANVAS EN HTML5</h1>
+           
+          <canvas id="micanvas" width="200px" height="100px" style="border:1px solid #000000;"></canvas>
+          
+          <script>
+              var contenedor= document.getElementById("micanvas");
+              var objeto2D= contenedor.getContext("2d");
+                 
+                 /* objeto2D.fillStyle="#800000";
+                  objeto2D.fillRect(0,0,150,75);*/
+                  objeto2D.moveTo(0,0);
+                  objeto2D.lineTo(200,100);
+                  objeto2D.stroke();
+            </script>
+       </body>
+</html>	 
